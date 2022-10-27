@@ -1,7 +1,5 @@
 
 const fetchbreedNameDescription = (breedName, callback) => {
-
-  
   const request = require("request");
   const url = `https://api.thecatapi.com/v1/breeds/search?q=${breedName}`;
   
